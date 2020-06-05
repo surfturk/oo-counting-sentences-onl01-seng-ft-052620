@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    sentences = selg.gsub(",", "142").gsub("?", "142").gsub("!", "142").split("142")
+    sentences = selg.gsub(",", "142").gsub("?", "142").gsub("!", "142").split("142").reject
     
   end
 end
